@@ -25,11 +25,11 @@ function App() {
             )}
 
 
-        {formularioEstaVisivel && (
+        {/* {formularioEstaVisivel && (
             <Formulario />
-        )}
+        )} */}
         {/* botao para fazer o formulario aparecer */}
-        <botton onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)} type="button">botao de aparecer formulario</botton>
+        {/* <botton onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)} type="button">botao de aparecer formulario</botton> */}
         </>
     )
 }
